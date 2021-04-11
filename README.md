@@ -1,11 +1,9 @@
 # FloatingActionButton
 FloatingActionButton made with bloc architecture dart/flutter
 # Base bloc
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
+```dart
+abstract class Bloc{
+  void dispose(){}
 }
 ```
 # FloatingActionButton bloc

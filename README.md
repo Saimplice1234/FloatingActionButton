@@ -71,7 +71,26 @@ floatingActionButton:StreamBuilder(
         },
       ),
 ```
-# Viewing
+# ShowDialogInBloc function
+```dart
+void showDialogInBloc(context,String value){
+  showDialog(
+      barrierDismissible:true,
+      context:context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          content:Text(value),
+        );
+      });
+}
+```
+# IndexedText function
+```dart
+  Widget indexedText(String value){
+    return Center(child: Text(value,style:TextStyle(color:Colors.white)));
+  }
+```
+# View
 <img src="https://user-images.githubusercontent.com/69945589/114279597-52792480-99ea-11eb-9f07-6642c006d1c9.gif" width="280"/>
  
   
